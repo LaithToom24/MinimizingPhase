@@ -25,6 +25,8 @@ We stabilize the system by placing zeros directly on top of the unstable poles t
 * **Cost:** To make this causal, we must introduce a pure delay ($z^{-N}$). 
 * **Result:** The filter is Stable, but has **High Latency** (Linear Phase).
 
+![Linear Phase Poles](Results/LinearPhasePoleZeroPlot.png)
+
 ### 3. The Minimum Phase Reconstruction (Optimal)
 We use Spectral Factorization to reconstruct the filter using **only the stable poles**.
 * **Visual:** All poles are contained safely inside the unit circle.
