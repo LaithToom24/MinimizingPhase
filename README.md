@@ -8,6 +8,7 @@ Using a custom high-order periodic filter ($k=50$), this MATLAB script demonstra
 
 ## The Experiment
 We design a filter with the periodic magnitude response:
+
 $$|H(\omega)| = \frac{1}{1 + \cos(k\omega)^2}$$
 
 ### 1. The "Ring of Instability" (Zero Phase)
